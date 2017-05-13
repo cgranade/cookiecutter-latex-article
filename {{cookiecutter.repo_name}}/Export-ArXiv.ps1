@@ -6,8 +6,8 @@ Import-Module posh-tex -Version "0.1.4"
 #endregion
 
 Export-ArXivArchive -RunNotebooks @{
-    ProjectName = "{{repo_name}}";
-    TeXMain = "tex/{{repo_name}}.tex";
+    ProjectName = "{{cookiecutter.repo_name}}";
+    TeXMain = "tex/{{cookiecutter.repo_name}}.tex";
     AdditionalFiles = @{
         "fig/*.pdf" = "fig/";
         "tex/revquantum.sty" = $null;
