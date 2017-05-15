@@ -10,10 +10,10 @@ Export-ArXivArchive -RunNotebooks @{
     TeXMain = "tex/{{cookiecutter.repo_name}}.tex";
     AdditionalFiles = @{
         "fig/*.pdf" = "fig/";
-        "tex/revquantum.sty" = $null;
-        # TODO: conditionally add quantumarticle.
-        "README.md" = $null;
-        "environment.yml" = $null;
+        "tex/revquantum.sty" = ".";
+        
+        "README.md" = "anc/";
+        "environment.yml" = "anc/";
     };
     Notebooks = @(
     )
