@@ -3,5 +3,6 @@
     "first_name": "Chris",
     "last_name": "Granade",
     "title": "Quantum Project",
-    "jupyter": "y"
+    "jupyter": "y",
+    "document_class": "[revtex / quantumarticle]"
 }
