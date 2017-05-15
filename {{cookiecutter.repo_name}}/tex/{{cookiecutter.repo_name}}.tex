@@ -1,5 +1,12 @@
+{%- if cookiecutter.document_class == "revtex4-1" -%}
 \documentclass[aps,pra,twocolumn,notitlepage,superscriptaddress]{revtex4-1}
 \usepackage[pretty,strict]{revquantum}
+
+{%- elif cookiecutter.document_class == "quantumarticle" -%}
+\documentclass{quantumarticle}
+\usepackage[strict]{revquantum}
+
+{%- endif -%}
 
 \newcommand{\figurefolder}{fig}
 
@@ -16,6 +23,10 @@
 \end{abstract}
 
 \maketitle
+
+\begin{acknowledgments}
+    This project was prepared using a reproducible workflow \cite{granade_reproducible_2017}.
+\end{acknowledgments}
 
 \bibliography{{ '{' }}{{cookiecutter.repo_name}}{{ '}' }}
 

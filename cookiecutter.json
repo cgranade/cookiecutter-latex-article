@@ -4,5 +4,5 @@
     "last_name": "Granade",
     "title": "Quantum Project",
     "jupyter": "y",
-    "document_class": "[revtex / quantumarticle]"
+    "document_class": ["revtex4-1", "quantumarticle"]
 }

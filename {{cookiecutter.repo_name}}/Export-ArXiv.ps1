@@ -11,6 +11,7 @@ Export-ArXivArchive -RunNotebooks @{
     AdditionalFiles = @{
         "fig/*.pdf" = "fig/";
         "tex/revquantum.sty" = $null;
+        # TODO: conditionally add quantumarticle.
         "README.md" = $null;
         "environment.yml" = $null;
     };
