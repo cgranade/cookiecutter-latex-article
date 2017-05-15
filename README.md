@@ -10,9 +10,11 @@ Install *cookiecutter*:
 
     pip install cookiecutter
 
-Generate a LaTeX project:
+Generate a project, including LaTeX, Jupyter, and PoShTeX support:
 
     cookiecutter gh:cgranade/cookiecutter-revquantum
+
+If you don't want to enable Jupyter for your project, simply type ``"n"`` at the ``jupyter [y]:`` prompt offered by cookiecutter.
 
 ## Background
 
