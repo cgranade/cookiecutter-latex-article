@@ -1,0 +1,5 @@
+name: {{cookiecutter.repo_name}}
+dependencies:
+  - numpy
+  - scipy
+  - notebook
